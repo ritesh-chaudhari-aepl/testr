@@ -1,0 +1,8 @@
+/* hero */
+.blogs-bg {
+    background-image: url(../../assets/bg-blogs.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }

@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)); */
+  background-color: white;
+  /* color: black; */
+  font-family: "Whitney Semibold", Helvetica, sans-serif;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+div {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+@font-face {
+  font-family: "Whitney";
+  src: url("/fonts/Whitney-Sans-Font/whitney.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Whitney Semibold";
+  src: url("/fonts/Whitney-Sans-Font/Whitney-Semibold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Whitney";
+  src: url("/fonts/Whitney-Sans-Font/Whitney.ttf");
+  font-weight: bold;
+  font-style: normal;
+}

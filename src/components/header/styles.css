@@ -1,0 +1,22 @@
+/* .dropdown::-webkit-scrollbar {
+  width: 0.62rem;
+}
+.dropdown::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background-color: #4B5563;
+} */
+
+.dropdown {
+  scrollbar-width: thin;
+  scrollbar-color: #4b5563 transparent;
+}
+
+/* Style for Webkit browsers */
+.dropdown::-webkit-scrollbar {
+  width: 0px;
+}
+
+.dropdown::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background-color: #4b5563;
+}

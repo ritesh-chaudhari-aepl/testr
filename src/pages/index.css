@@ -1,0 +1,278 @@
+@media (max-width: 324px) {
+  .image-1 {
+    width: 28%;
+    height: 4.88rem;
+    top: 1.8rem;
+    left: 23.8%;
+  }
+  .image-2 {
+    width: 34%;
+    height: 5.6rem;
+    top: 0.2rem;
+    left: 54%;
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+  .image-3 {
+    width: 51%;
+    height: 5.3rem;
+    top: 7rem;
+    left: 0.2rem;
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+  .image-4 {
+    width: 29%;
+    height: 5.5rem;
+    top: 6.2rem;
+    left: 54%;
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+  .image-5 {
+    width: 15%;
+    height: 3.6rem;
+    top: 6.2rem;
+    left: 85%;
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+}
+@media (min-width: 325px) and (max-width: 385px) {
+  /* .m-640{
+    display: none;
+  } */
+  .image-1 {
+    width: 28%;
+    height: 5.85rem;
+    top: 2.15rem;
+    left: 23.8%;
+    border-radius: 4px;
+  }
+  .image-2 {
+    width: 34%;
+    height: 6.7rem;
+    top: 0.2rem;
+    left: 54.1%;
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+  .image-3 {
+    width: 51%;
+    height: 6.4rem;
+    top: 8.4rem;
+    left: 0.3rem;
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+  .image-4 {
+    width: 29%;
+    height: 6.5rem;
+    top: 7.4rem;
+    left: 54.1%;
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+  .image-5 {
+    width: 15%;
+    height: 4.2rem;
+    top: 7.4rem;
+    left: 85%;
+    border-radius: 4px;
+    border: 1px solid black;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: initial;
+}
+
+/* Add appropriate styling for your alert-popup */
+.alert-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding: 160px;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+/* hero */
+.hero-bg {
+  background-image: url(../assets/hero-bg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+/* about */
+/* .about-bg-image {
+  background-image: 
+  linear-gradient(
+      164deg,
+      rgb(116 74 46 / 65%),
+      rgb(14 10 7 / 26%)
+    ), url(../assets/about.webp);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+} */
+
+.about-bg-image {
+  background-image: 
+  /* linear-gradient(
+      164deg,
+      rgb(116 74 46 / 65%),
+      rgb(14 10 7 / 26%)
+    ),*/ url(../assets/home-about.jpg);
+  /* background-blend-mode: overlay; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.about-card {
+  background: radial-gradient(
+    95.97% 57% at 49.68% 51.38%,
+    rgba(36, 40, 50, 0.4) 0%,
+    rgba(33, 35, 43, 0.04) 100%
+  );
+}
+
+/* crowdfunding */
+.crowdfunding-bg-image {
+  background-image: 
+  /* linear-gradient(
+      164deg,
+      rgb(116 74 46 / 65%),
+      rgb(14 10 7 / 26%)
+    ), */ url(../assets/whats1.jpeg);
+  /* url(../assets/crowdfunding-bg.webp); */
+  /* background-blend-mode: overlay; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.news-blogs-cover-image {
+  background-image: 
+  /* linear-gradient(
+      164deg,
+      rgb(116 74 46 / 65%),
+      rgb(14 10 7 / 26%)
+    ), */ url(../assets/gallery/Villages1.png);
+  /* url(../assets/crowdfunding-bg.webp); */
+  /* background-blend-mode: overlay; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+/* Meettrustees */
+.trustees-bg-image {
+  background-image: url(../assets/Trust-Background-in-Home-Page.png);
+  /* background-blend-mode: overlay; */
+  background-size: cover;
+  background-position: top left;
+  /* background-position: bottom; */
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+@media (max-width: 1220) {
+  /* Meettrustees */
+  .trustees-bg-image {
+    background-image: url(../assets/Trust-Background-in-Home-Page.png);
+    /* background-blend-mode: overlay; */
+    background-size: cover;
+    background-position: top left;
+    /* background-position: bottom; */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 650px) {
+  /* Meettrustees */
+  .trustees-bg-image {
+    background-image: url(../assets/Trust-Background-in-Home-Page.png);
+    background-blend-mode: overlay;
+    background-size: contain;
+    background-position: top left;
+    background-color: #19272b;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Issues cause */
+.cause-bg-image {
+  background-image: 
+  /* linear-gradient(
+      164deg,
+      rgb(116 74 46 / 65%),
+      rgb(14 10 7 / 26%)
+    ), */ url(../assets/importance-cows-issue-bg.webp);
+  /* background-blend-mode: overlay; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  /* height: 100%; */
+}
+
+/* updates */
+.update-bg-image {
+  background-image: 
+  /* linear-gradient(
+      164deg,
+      rgb(116 74 46 / 65%),
+      rgb(14 10 7 / 26%)
+    ), */ url(../assets/dusty-trial.webp);
+  /* background-blend-mode: overlay; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+/* contact us */
+.contact-bg-image {
+  background-image: 
+  /* linear-gradient(
+      164deg,
+      rgb(116 74 46 / 65%),
+      rgb(14 10 7 / 26%)
+    ),*/ url(../assets/dusty-trial.webp);
+  /* background-blend-mode: overlay; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+/* footer */
+.footer-bg {
+  background-image: 
+  /* linear-gradient(
+      164deg,
+      rgb(116 74 46 / 65%),
+      rgb(14 10 7 / 26%)
+    ), */ url(../assets/footer-bg.png);
+
+  /* background-blend-mode: overlay; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
